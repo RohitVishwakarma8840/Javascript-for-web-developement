@@ -1,5 +1,7 @@
 // object a javascript is a object having some entity and behaviour
-// js objects has special property called prototype which are also objects 
+// js objects has special property called prototype which are also objects which provide some functions to the 
+// object or we can say that object inherits it 
+
 
 
 // const student={
@@ -42,6 +44,8 @@ karanArjun2.__proto__=employee;
 karanArjun3.__proto__=employee;
 
 //  used to set a prototype in js so that methods can be used in javascript 
+// by doing this you can use the methods of other objects in your objects
+
 
 const karanArjun4={
    salary:50000,
